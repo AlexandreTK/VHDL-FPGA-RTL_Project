@@ -1,0 +1,12 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alexandretk/Desktop/prova/prova/prova.srcs/sources_1/new/cmp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity cmp
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alexandretk/Desktop/prova/prova/prova.srcs/sources_1/new/contador8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity contador8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alexandretk/Desktop/prova/prova/prova.srcs/sources_1/new/fsm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fsm
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alexandretk/Desktop/prova/prova/prova.srcs/sources_1/new/operacional.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity operacional
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alexandretk/Desktop/prova/prova/prova.srcs/sources_1/new/toplevel.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity toplevel
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alexandretk/Desktop/prova/prova/prova.srcs/sim_1/new/toplevel_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity toplevel_tb

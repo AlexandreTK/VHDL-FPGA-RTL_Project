@@ -1,0 +1,98 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 2944
+
+Current time: 	12/24/16 11:03:33 PM BRST
+Time zone: 	Brasilia Time (America/Sao_Paulo)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 2
+
+Screen size: 1920x1200
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	Alexandre
+User home directory: C:/Users/Alexandre
+User working directory: C:/Users/Alexandre/Desktop/SD2_LAB/Prova_1/2_prova_1ctr/prova
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/Alexandre/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/Alexandre/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	198 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 466 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Alexandre\Desktop\SD2_LAB\Prova_1\2_prova_1ctr\prova\prova.xpr. Version: Vivado v2016.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Alexandre/Desktop/SD2_LAB/Prova_1/2_prova_1ctr/prova/prova.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Alexandre/Desktop/Prova_1/2_prova_1ctr/prova' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 74 MB (+75167kb) [00:00:05]
+// [Engine Memory]: 433 MB (+302287kb) [00:00:05]
+// [Engine Memory]: 457 MB (+3201kb) [00:00:06]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: prova; location: C:/Users/Alexandre/Desktop/SD2_LAB/Prova_1/2_prova_1ctr/prova; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 475 MB. GUI used memory: 33 MB. Current time: 12/24/16 11:03:35 PM BRST
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 489 MB (+9417kb) [00:00:09]
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel - Behavioral (toplevel.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel - Behavioral (toplevel.vhd), U2 - operacional - Behavioral (operacional.vhd)]", 3); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel - Behavioral (toplevel.vhd), U1 - fsm - Behavioral (fsm.vhd)]", 2, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel - Behavioral (toplevel.vhd), U1 - fsm - Behavioral (fsm.vhd)]", 2, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel - Behavioral (toplevel.vhd), U2 - operacional - Behavioral (operacional.vhd)]", 3, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel - Behavioral (toplevel.vhd), U2 - operacional - Behavioral (operacional.vhd)]", 3, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel - Behavioral (toplevel.vhd), U2 - operacional - Behavioral (operacional.vhd)]", 3); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel - Behavioral (toplevel.vhd), U2 - operacional - Behavioral (operacional.vhd), U1 - contador8 - Behavioral (contador8.vhd)]", 4, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel - Behavioral (toplevel.vhd), U2 - operacional - Behavioral (operacional.vhd), U1 - contador8 - Behavioral (contador8.vhd)]", 4, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel - Behavioral (toplevel.vhd), U2 - operacional - Behavioral (operacional.vhd), U2 - cmp - Behavioral (cmp.vhd)]", 5, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel - Behavioral (toplevel.vhd), U2 - operacional - Behavioral (operacional.vhd), U2 - cmp - Behavioral (cmp.vhd)]", 5, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel - Behavioral (toplevel.vhd), U2 - operacional - Behavioral (operacional.vhd), U3 - cmp - Behavioral (cmp.vhd)]", 6, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel - Behavioral (toplevel.vhd), U2 - operacional - Behavioral (operacional.vhd), U3 - cmp - Behavioral (cmp.vhd)]", 6, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel - Behavioral (toplevel.vhd), U2 - operacional - Behavioral (operacional.vhd)]", 3, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel - Behavioral (toplevel.vhd), U2 - operacional - Behavioral (operacional.vhd)]", 3, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel - Behavioral (toplevel.vhd), U1 - fsm - Behavioral (fsm.vhd)]", 2, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel - Behavioral (toplevel.vhd), U1 - fsm - Behavioral (fsm.vhd)]", 2, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel - Behavioral (toplevel.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, toplevel - Behavioral (toplevel.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// [GUI Memory]: 78 MB (+451kb) [00:01:16]
+// [GUI Memory]: 83 MB (+1389kb) [00:07:15]
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 36 MB. Current time: 12/24/16 11:15:01 PM BRST
+// [Engine Memory]: 525 MB (+11731kb) [00:11:38]
